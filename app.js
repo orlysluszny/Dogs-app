@@ -8,7 +8,7 @@ app.config(function($routeProvider) {
         templateUrl: "home.html"
     })
     .when("/Breeds", {
-        templateUrl: "Gallery/actor.html"
+        templateUrl: "Gallery/breeds.html"
         /*controller: "actorCtrl"*/
     })
     .when("/movie", {
