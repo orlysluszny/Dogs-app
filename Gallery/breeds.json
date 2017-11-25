@@ -1,14 +1,14 @@
 [{
     "firstName":"Sandra", 
-    "lastName":"Bullock", 
+    "api":"Bullock", 
     "img":"https://images-na.ssl-images-amazon.com/images/M/MV5BMTI5NDY5NjU3NF5BMl5BanBnXkFtZTcwMzQ0MTMyMw@@._V1_UY317_CR1,0,214,317_AL_.jpg", 
-    "imdbURL":"http://www.imdb.com/name/nm0000113/?ref_=nv_sr_1"
+    "imdbURL":"https://dog.ceo/dog-api/"
 },
 {
     "firstName":"Julia", 
     "lastName":"Roberts", 
     "img":"https://images-na.ssl-images-amazon.com/images/M/MV5BMTQzNjU3MDczN15BMl5BanBnXkFtZTYwNzY2Njc4._V1_UX214_CR0,0,214,317_AL_.jpg", 
-    "imdbURL":"http://www.imdb.com/name/nm0000210/?ref_=nv_sr_2"
+    "imdbURL":"https://dog.ceo/dog-api/api/breed/{buldog}/images"
 },
 {
     

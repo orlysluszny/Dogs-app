@@ -1,19 +1,17 @@
 <div class="container">
     <div class="jumbotron" ng-controller="breedsCtrl">
     <h1>Dogs Book -  Gallery</h1>
-    Search by First Name: <input type="text" ng-model="query.firstName" />
+    Search: <input type="text" ng-model="query.firstName" />
     <br>
     <br>
-    <button type="button" class="btn btn-default" ng-click="sortByFirstName()">Sort by First Name</button>
-    <br>
-    <br>
+ 
     <div class="row">   
     <div ng-repeat="breeds in Gallery | filter : query | orderBy: orderProp " class="column col-xs-12 col-sm-10 col-md-5 col-lg-4">
         <a href= {{breeds.imdbURL}} target="_blank">
         <img ng-src={{breeds.img}} alt=""/>
         <br>
         <br>
-        {{breeds.firstName+ ' ' +breeds.lastName}}
+        {{breeds.firstName}}
         <br>
         <br>
         <br>
