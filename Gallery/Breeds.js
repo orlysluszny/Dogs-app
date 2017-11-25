@@ -1,9 +1,9 @@
-app.factory("Actor", function(){
-    function Actor(firstName, lastName, img, imdbURL) {
+app.factory("Breeds", function(){
+    function Breeds(firstName, lastName, img, imdbURL) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.img = img;
         this.imdbURL = imdbURL;
     }  
-    return Actor;
+    return Breeds;
 });

@@ -1,5 +1,5 @@
 
-app.controller("actorCtrl", function($scope, $http, Actor) {
+app.controller("actorCtrl", function($scope, $http, Breeds) {
     
     $http.get("Gallery/actor.json").then(function mySuccess(response) {
           $scope.Gallery=response.data;
