@@ -1,6 +1,6 @@
 // Code goes here
 
-var app = angular.module("movieApp", ["ngRoute"]);
+var app = angular.module("dogApp", ["ngRoute"]);
 
 app.config(function($routeProvider) {
     $routeProvider
