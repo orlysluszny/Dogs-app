@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app="movieApp">
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!--<link rel="stylesheet" href="style.css">-->
+  <script src="app.js"></script>
+  <script src="actors/Actor.js"></script>
+  <script src="actors/actorCtrl.js"></script>
+  <script src="movie/movieCtrl.js"></script>
+  <script src="movie/Movie.js"></script>  
+  <script src="movie/movieDirective.js"></script>
+  <script src="convertService.js"></script>  
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+    <a class="navbar-brand" href="#!">Dogs Book</a>
+    <ul class="nav navbar-nav">
+        <li ng-class="{active : isActive('Actor')}">
+            <a href="#!/Actor">Breeds</a>        
+        <li ng-class="{active : isActive('movie')}">
+            <a href="#!/movie">About</a>
+        </li>
+        </li>
+    </ul>
+</nav> 
+
+<ng-view></ng-view>
+
+</body>
+
+
+</html>
